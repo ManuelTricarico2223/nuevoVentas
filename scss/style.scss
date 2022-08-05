@@ -1,0 +1,76 @@
+
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: 0; 
+}
+
+
+
+header{
+    color: brown;
+    font-size: 80px;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+}
+
+body{
+    justify-content: center;
+    font-family: 'Anek Latin', sans-serif;
+    background-color: rgb(253, 255, 255);
+}
+
+.nav{
+    margin-bottom: 50px;
+    ul{
+        color: black;
+    }
+    li{
+        font-size: 50px;
+        text-align: center;}
+        color: black;
+
+    a{
+        color: black;
+
+    }
+    }
+    .propaganda{
+        p{
+        text-align: center;
+        font-size: 50px;
+        color: red;
+        border: solid 5px black;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    } 
+  .galeria{
+      
+        margin: 10px;
+        border: solid 5px black;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+        .img1{
+            padding: 20px;
+        }
+        .img2{
+            padding: 20px;
+        }
+        .img3{
+            padding: 20px;
+        }
+
+    }
+
+  
+
+    
+    footer{
+        text-align: center;
+        font-size: 60px;
+        background-color: gold;
+    }
+    
