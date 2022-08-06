@@ -102,7 +102,7 @@ footer{
     grid-area: datos;
 }
 
-@media(min-width:480px){
+@media(min-width:406px){
     .container{
     display: grid;
     grid-template-areas:

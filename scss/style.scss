@@ -16,17 +16,19 @@
   margin-right: 100px;
   background-color: aliceblue;
   font-weight: bolder;
-  margin-right: 150px;
   margin-top: 10px;
+  margin-left: 50px;
 }
-  
+  .navBar{
+    margin-left: 20px;
+  }
 
     
     
       /**celular**/
 
 
-    @media (min-width:440px){
+    @media (min-width:407px){
         .container{
         grid-template-areas:
          "header"
