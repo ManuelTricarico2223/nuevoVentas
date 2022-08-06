@@ -24,6 +24,7 @@ body{
     padding-bottom: 10px;
     padding-top: 20px;
     background-color: black;
+    font-size: 100px;
  }
 
  .navbar{
@@ -167,6 +168,7 @@ footer{
            }
         
            .tituloPrincipal{
+            font-size: 150px;
             background-color: black;
             padding: 40px;
             color: rgb(255, 0, 0);

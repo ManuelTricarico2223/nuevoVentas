@@ -5,40 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./productos.html">
     <link rel="stylesheet" href="../css/productos.css">
 
   <body>
     
-    <header>
+    
       
-        <div class="textoPrincipal">
-            <img src="../imagenes/cooltext2.png" alt="">
+        <div class="container-fluid">
+            <img src="../imagenes/cooltext2.png" class="img-fluid" alt="...">
         </div>
         
-        <nav>
-          <ul>
-             <li> 
-                 <a href="../index.html">INICIO</a>  
-             </li>
-             <li> 
-                 <a href="contacto.html">CONTACTO</a> 
-             </li>
-             <li>
-                 <a href="productos.html">PRODUCTOS</a>
-             </li>
-             <li>
-                 <a href="servicios.html">SERVICIOS</a>
-             </li>
-             <li>
-                 <a href="nosotros.html">NOSOTROS</a>
-             </li>
-             
-          </ul>
-  
+         <nav class="navbar navbar-expand-lg navbar-">
+           <div class="nav">
+            <a class="navbar-brand" href="#"><img src="../imagenes/tm.png"></a> <w-25></w-25>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../secciones/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../secciones/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="../secciones/nosotros.html"> Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
 
-    </header>
+    
         <section>
             <h1 class="neumaticos">
                 ¿QUÉ SIGNIFICAN LOS NÚMEROS DE LOS NEUMÁTICOS?
@@ -68,17 +77,34 @@
             </p>
         <section> 
             
-                <section class="tabla">
-                   <img src="../imagenes/tabla-numerica.jpg" alt="">
-                </section>
+               <div class="imagenes">
+                 <img src="../imagenes/cubiertas/D_NQ_NP_720165-MLA46523924219_062021-V.webp" alt="" class="img1" >
+                       <p class="p1">Neumático Pirelli Scorpion ATR 175/70R14 88 H</p>
+                  <img src="../imagenes/cubiertas/D_NQ_NP_761046-MLA46523883405_062021-V.webp" alt="" class="img2">
+                       <p class="p2">Neumático Pirelli Cinturato P1 P 175/65R14 82 T</p>
+                  <img src="../imagenes/cubiertas/D_NQ_NP_922557-MLA46523883360_062021-V.webp" alt="" class="img3">
+                       <p class="p3">Neumático Pirelli Cinturato P1 Plus P 195/55R15 85 V</p>
+                  <img src="../imagenes/cubiertas/D_NQ_NP_996978-MLU49004262441_022022-V.webp" alt="" class="img4">
+                       <p class="p4">Juego 4 Cubiertas Pirelli Lt245/70 Tr16 Scorpion H/t</p>
 
-  </body>
+
+               </div>
+
 
             <footer>
 
 
 
              </footer> 
+
+  
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <script>
+          AOS.init();
+        </script>    
+ 
 
   </html>
 </head>

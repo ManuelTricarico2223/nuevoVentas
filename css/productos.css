@@ -3,68 +3,151 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.textoPrincipal{
-    background-color: black;
-    text-align: center;
+body{
+   background-color: darkcyan;
 }
-ul li{
-    display: inline-block;
-    margin: 15px;
-
+.navbar-toggler-icon{
+    font-size: 30px;
+    background-color: rgb(6, 240, 244);
+    border: 5px solid black;
+    padding: 10px;
+}
+.navbar-toggler{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-color: black;
+    border: solid 5px;
+    background-color: aliceblue;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.container-fluid{
+    grid-area: containerFluid;
 }
 nav{
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 30px;
+    grid-area: nav;
 }
-nav ul{
-    text-align: center;
-    list-style: none;
-    font-size: 80px;
-    font-size: 50px
-    
-    
-}
-li a{
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    padding:20px;
-    color: rgb(5, 6, 6);
-}
-header{
-    min-height: 60vh;
-    background: url(../imagenes/cubiertas\ en\ fila-gigapixel-standard-scale-4_00x\ 222.jpg) no-repeat center center;
-    background-size:contain
-}
- .neumaticos{
-    margin: 50px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: rgb(0, 4, 255);
-    font-size: 40px;
+.neumaticos{
+    grid-area: neumaticos;
 }
 .parrafoUno{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    margin: 20px 20px 50px;
+    grid-area: parrafoUno;
 }
-section div{
-    margin-left: 600px;
-    margin-right: 1230px;
-    background-color: rgb(9, 9, 9);
-    padding: 10px;
-
+.rodadoCubiertas{
+    grid-area: rodadoCubiertas;
 }
-
 .parrafoDos{
-    font-size: xx-large;
-    margin: 40px 40px 50px
+    grid-area: parrafoDos;
 }
 .parrafoTres{
-    font-size: xx-large;
-    margin: 40px 40px 100px;
+    grid-area: parrafoTres;
 }
-.tabla{
-    margin: 100px;
-    padding: 10px;
-    width: 930px;
+.imagenes{
+    grid-area: imagenes;
 }
+
+
+@media (min-width:480px){
+    .container{
+        grid-area: 
+                 "containerFluid"
+                 "navbar-toggler"
+                 "button"
+                 "neumaticos"
+                 "parrafoUno"
+                 "rodadoCubierta"
+                 "parrafoDos"
+                 "parrafoTres"
+                 "imagenes"
+                 "footer"
+                 "p1" "p2" "p3" "p4" ;
+       grid-template-columns: 1fr;
+    
+    }
+    
+    .container-fluid{
+        text-align: center;
+        background-color: black;
+    }
+    .neumaticos{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 10px;
+        color: crimson;
+    }
+    .nav{
+        margin-left: 50px;
+    }
+    .navbarNav{
+        color: black;
+    }
+    .navbar{
+        color: rgb(9, 9, 9);
+        font-size: 10px;
+        background-color: coral;
+    }
+    
+    .parrafoUno{
+        color: rgb(1, 2, 2);
+        margin: 10px;
+        font-weight: bolder;
+    }
+    .rodadoCubierta{
+    margin: 50px;
+    margin-left: 80px;
+    border-style: outset;
+    padding: 25px;
+    padding-left: 30px;
+    background-color: rgb(115, 116, 121);
+    }
+     .parrafoDos{
+        color: rgb(1, 2, 2);
+        margin: 10px;
+        font-weight: bolder;
+     }
+
+
+    .parrafoTres{
+
+        color: rgb(1, 2, 2);
+        margin: 10px;
+        font-weight: bolder;
+    }
+    .imagenes{
+        margin: 30px;
+        margin-top: 30px;
+        border: solid 10px black;
+ 
+    }
+     
+    .p1{
+        color: rgb(0, 229, 255);
+        font-size: 20px;
+        margin: 10px;
+      }
+      .p2{
+        color: rgb(0, 229, 255);
+        font-size: 20px;
+        margin: 10px;
+      }
+      .p3{
+        color: rgb(0, 229, 255);
+        font-size: 20px;
+        margin: 10px;
+      }
+      .p4{
+        color: rgb(0, 229, 255);
+        font-size: 20px;
+        margin: 10px;
+      }
+
+    }
+    
