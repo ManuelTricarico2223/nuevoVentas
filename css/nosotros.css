@@ -26,6 +26,7 @@ li a{
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    padding: 10px;
 }
 nav ul{
     text-align: center;

@@ -36,10 +36,10 @@ header{
     background: url(../imagenes/cubiertas\ en\ fila-gigapixel-standard-scale-4_00x\ 222.jpg) no-repeat center center;
     background-size:contain
 }
- section h1{
+ .neumaticos{
     margin: 50px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 4, 255);
     font-size: 40px;
 }
 .parrafoUno{
