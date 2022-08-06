@@ -1,12 +1,24 @@
 @import "./layout/reset";
 @import "./layout/body";
-@import "./layout/header";
-@import "./layout/nav";
 @import "./layout/propaganda";
-@import "./layout/video";
+@import "./layout/header";
 @import "./layout/galeria";
+@import "./layout/video";
+@import "./layout/navbar.link";
 @import "./layout/footer";
+@import "./layout/descuento";
 
+
+
+.nav-link{
+  color: black;
+  font-size: 20px;
+  margin-right: 100px;
+  background-color: aliceblue;
+  font-weight: bolder;
+  margin-right: 150px;
+  margin-top: 10px;
+}
   
 
     
@@ -14,9 +26,8 @@
       /**celular**/
 
 
-    @media (min-width:480px){
+    @media (min-width:440px){
         .container{
-        display: grid;
         grid-template-areas:
          "header"
          "tituloPrincipal"
@@ -62,24 +73,16 @@
       
     .galeria{
 
-        margin-left: 50px;
+       
         gap: 20px;
         padding: 20px;
     }
-        .descuento{
-            color: aqua;
-            text-align: center;
-            font-size: 30px;
-            background-color: rgb(7, 7, 7);
-            padding: 10px;
-            margin-left: 80px;
-            margin-top: 30px;
-        }
+      
     
        
       .marcas{
-        margin-left: 200px;
-        margin-top: 0;
+        margin-left: 100px;
+        margin-top: 50px;
       }
      
      footer{

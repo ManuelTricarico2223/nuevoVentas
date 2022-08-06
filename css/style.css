@@ -1,68 +1,79 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 body {
-  justify-content: center;
-  font-family: 'Anek Latin', sans-serif;
-  background-color: darkcyan; }
-
-header {
-  display: flex;
-  color: brown;
-  font-size: 70px;
   text-align: center;
   justify-content: center;
-  margin-left: 40px; }
-
-.nav {
-  margin-bottom: 50px;
-  color: black; }
-  .nav ul {
-    color: black; }
-  .nav li {
-    font-size: 50px;
-    text-align: center; }
-  .nav a {
-    color: black;
-    background-color: aliceblue; }
+  font-family: 'Anek Latin', sans-serif;
+  background-color: darkcyan;
+  display: flex; }
 
 .propaganda {
   font-size: 30px;
-  display: grid;
   padding-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(0, 0, 0, 0.948);
+  color: rgba(6, 245, 217, 0.948);
+  font-weight: bolder;
   text-align: center;
-  margin-left: 80px;
-  margin-top: 30px;
-  background-color: aliceblue; }
+  margin: 30px;
+  margin-left: 50px;
+  margin-left: 50px; }
 
-.videoPrincipal {
-  margin-left: 150px;
-  margin-top: 200px; }
+header {
+  color: brown;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 40px;
+  font-weight: bolder; }
 
 .galeria {
-  gap: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px));
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 10px;
-  padding: 20px;
-  justify-content: center; }
+  gap: 10px;
+  margin-right: 20px;
+  margin-left: 90px;
+  padding-bottom: 10px; }
+
+.videoPrincipal {
+  margin-left: 100px;
+  margin-top: 200px; }
+
+.nav-link {
+  color: black;
+  font-size: 20px;
+  margin-right: 100px;
+  background-color: aliceblue;
+  font-weight: bolder;
+  margin-right: 150px;
+  margin-top: 10px; }
 
 footer {
   text-align: center;
   font-size: 60px;
   background-color: gold;
-  margin: 20px; }
+  margin-left: 50px; }
+
+.descuento {
+  color: aqua;
+  text-align: center;
+  font-size: 30px;
+  background-color: #070707;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px; }
+
+.nav-link {
+  color: black;
+  font-size: 20px;
+  margin-right: 100px;
+  background-color: aliceblue;
+  font-weight: bolder;
+  margin-right: 150px;
+  margin-top: 10px; }
 
 /**celular**/
-@media (min-width: 480px) {
+@media (min-width: 440px) {
   .container {
-    display: grid;
     grid-template-areas: "header" "tituloPrincipal" "navbar-toggler" "nav" "a" "propaganda" "descuento" "galeria"  "video" "footer";
     grid-template-columns: 1fr; }
   .header {
@@ -85,20 +96,11 @@ footer {
     font-size: 30px;
     color: black; }
   .galeria {
-    margin-left: 50px;
     gap: 20px;
     padding: 20px; }
-  .descuento {
-    color: aqua;
-    text-align: center;
-    font-size: 30px;
-    background-color: #070707;
-    padding: 10px;
-    margin-left: 80px;
-    margin-top: 30px; }
   .marcas {
-    margin-left: 200px;
-    margin-top: 0; }
+    margin-left: 100px;
+    margin-top: 50px; }
   footer {
     font-size: 40px;
     margin-bottom: 50px;
