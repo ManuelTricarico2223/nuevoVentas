@@ -54,7 +54,9 @@ nav{
 }
 
 
-@media (min-width:406px){
+
+
+@media(min-width:406px){
     .container{
         grid-area: 
                  "containerFluid"

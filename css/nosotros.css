@@ -4,41 +4,143 @@
     box-sizing: border-box;
 }
 
-header{
-    min-height: 100vh;
+body{
     background: url(../imagenes/ruedas\ amarrillas1000px.jpg) no-repeat center center fixed;
     background-size:cover;
+    width: 100%;
+    display:flex;
+}
+.navbar{
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+    
 }
 
-.tituloPrincipal{
+
+/* areas*/
+
+
+.titulo{
+    grid-area: titulo;
+}
+.titulo2{
+    grid-area: titulo2;
+}
+.navbar{
+    grid-area: navbar;
+}
+.navbar-collapse{
+    grid-area: navbar-collapse;
+}
+.p1{
+    grid-area: p1;
+}
+
+@media (min-width:406px){
+       .container{
+      grid-area: 
+        "titulo"
+        "navbar"
+        "navbar-collapse"
+        "titulo2"
+        "p1";
+       grid-template-columns: 1fr;
+    }
+    
+    .titulo{
+       font-size: 40px;
+       text-align: center;
+       background-color: black;
+       color: coral;
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+   
+
+    .titulo2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: blue;
+        font-weight: bolder;
+    }
+   .p1{
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    background-color: black;
+   }
 }
-nav li{
-    display: inline-block;
-    padding: 50px;
-    margin-left: 30px;
-}
-li a{
-    color: rgb(16, 17, 17);
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    padding: 10px;
-}
-nav ul{
-    text-align: center;
-}
-section h1{
-    text-align: center;
+
+@media (min-width:720px){
+    .container{
+   grid-area:
+     "navbar-collapse"
+     "navbar" 
+     "titulo"
+     "titulo2"
+     "p1";
+    grid-template-columns: 1fr;
+ }
+ .navbar{
+    font-size: 30px;
+    border: 5px solid black ;
+    margin-right: 30px;
+    margin-top: 50px;
+ }
+ .titulo{
+
     font-size: 80px;
-    margin: 50px 100px 100px 50px;
-    color: brown;
+    color: blueviolet;
+    background-color: aliceblue;
+ }
+ 
+ .titulo2{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+ }
+ .p1{
+    font-size: 30px;
+ }
 }
-section p{
-    text-align: center;
-    font-size: 50px; 
-    margin-bottom: 40px;
+
+
+@media (min-width:1024px){
+    .container{
+   grid-area:
+     "navbar-collapse"
+     "navbar" 
+     "titulo"
+     "titulo2"
+     "p1";
+    grid-template-columns: 1fr;
+
+}
+
+.titulo{
+    background-color: tomato;
+    color: black;
+    font-size: 100px;
+}
+.navbar{
+    margin-right: 400px;
+    padding-left: 100px;
+    margin-left: 450px;
+}
+.navbar-collapse{
+    font-size: 40px;
+}
+.titulo2{
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+ }
+
 }
