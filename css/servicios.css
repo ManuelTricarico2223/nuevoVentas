@@ -7,9 +7,14 @@ body{
     display: flex;
  
 }
-header{
-    width: 200%;
-    height: 200%;
+
+.navbar-toggler, .navbar-toggler-icon{
+    font-size: 50px;
+    background: violet;
+}
+body{
+    width: 100%;
+    display: flex;
      background: url(../imagenes/cubiertas\ en\ fila-gigapixel-standard-scale-4_00x\ 222.jpg) no-repeat fixed;
      background-position: center;
      background-size:cover;
@@ -47,10 +52,12 @@ nav{
 
 
 
+/* Mobile */
 
 
 @media (min-width :406px){
-      .container{
+
+    .container{
         grid-area:
         "textoPrincipal"
         "nav"
@@ -129,3 +136,51 @@ nav{
     }
     
 }
+@media (min-width:720px){
+
+    .container{
+        grid-area:
+        "textoPrincipal"
+        "nav"
+        "nav-link"
+        "servicio"
+        "venta"
+        "alineacion"
+        "texto"
+        "info"
+        "imagenes"
+        "horarios";
+        grid-template-columns: 1fr;
+      }
+
+
+     .textoPrincipal{
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .nav-link{
+        font-size: 60px;
+        color: rgb(35, 248, 2);
+        font-weight: bolder;
+        padding: 20px;
+        text-align: center;
+        padding-left: 50px;
+    }
+    .servicio{
+        font-size: 100px;
+        font-weight: bolder;
+        color: rgb(4, 245, 169);
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+   
+    .venta{
+        margin-bottom: 100px;
+        font-size: 60px;
+        margin-top: 50px;
+        color: blue;
+    }
+
+}
+

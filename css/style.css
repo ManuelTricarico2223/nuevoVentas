@@ -4,10 +4,9 @@
   box-sizing: border-box; }
 
 body {
-  text-align: justify;
-  background-color: darkcyan;
-  display: grid;
-  margin-left: px; }
+  width: 100%;
+  display: flex;
+  background-color: darkcyan; }
 
 .propaganda {
   font-size: 30px;
@@ -31,7 +30,8 @@ header {
   gap: 10px;
   margin-right: 20px;
   margin-left: 60px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  padding-left: 100px; }
 
 .videoPrincipal {
   margin-left: 100px;
@@ -50,7 +50,8 @@ footer {
   text-align: center;
   font-size: 60px;
   background-color: gold;
-  margin-left: 50px; }
+  margin-left: 50px;
+  margin-right: 50px; }
 
 .descuento {
   color: aqua;
@@ -182,4 +183,10 @@ nav {
     margin-right: 100px;
     font-weight: bolder;
     margin-top: 10px;
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .galeria {
+    background-color: aliceblue;
+    padding-left: 200px;
+    box-shadow: 3px 5px 5px black;
+    padding: 10px;
+    gap: 10px; } }
