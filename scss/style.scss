@@ -22,6 +22,9 @@
   .navBar{
     margin-left: 20px;
   }
+  nav{
+    margin-left: 10px;
+  }
 
     
     
@@ -41,6 +44,7 @@
          "galeria" 
          "video"
          "footer";
+         display: grid;
         grid-template-columns: 1fr;
         }  
      
@@ -55,16 +59,18 @@
     }
     
          nav{
-     
-        margin-left: 80px;
+          grid-template-columns: 50px 20%;
+          margin-left: 100px;
     
         }
        .navbar-toggler{
-        background-color: rgb(173, 173, 177);
-        padding: 10px;
-        margin-top: 10px;
-        border: solid 2px black;
-       }
+          margin-top: 70px;
+          margin-bottom: 70px;
+          border-color: black;
+          border: solid 5px;
+          background-color: aliceblue;
+      }
+       
         a{
            font-family: 'Times New Roman', Times, serif;
            display: flex;
@@ -188,4 +194,19 @@
         padding: 20px;
     
      }
+    }
+
+    @media (min-width:1024px){
+
+
+      .navbar-toggler{
+        margin-top: 70px;
+        margin-bottom: 70px;
+        border-color: black;
+        border: solid 5px;
+    }
+
+
+
+
     }

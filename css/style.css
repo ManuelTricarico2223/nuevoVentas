@@ -4,26 +4,25 @@
   box-sizing: border-box; }
 
 body {
-  text-align: center;
-  justify-content: center;
-  font-family: 'Anek Latin', sans-serif;
+  text-align: justify;
   background-color: darkcyan;
-  display: flex; }
+  display: grid;
+  margin-left: px; }
 
 .propaganda {
   font-size: 30px;
-  padding-top: 20px;
+  padding: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(6, 245, 217, 0.948);
+  color: rgba(243, 248, 247, 0.948);
   font-weight: bolder;
   text-align: center;
   margin: 30px;
-  margin-left: 50px;
-  margin-left: 50px; }
+  margin-left: 70px;
+  background-color: #a31313; }
 
 header {
-  color: brown;
-  font-size: 50px;
+  color: #15f509;
+  font-size: 80px;
   text-align: center;
   margin-left: 40px;
   font-weight: bolder; }
@@ -31,7 +30,7 @@ header {
 .galeria {
   gap: 10px;
   margin-right: 20px;
-  margin-left: 90px;
+  margin-left: 60px;
   padding-bottom: 10px; }
 
 .videoPrincipal {
@@ -59,8 +58,9 @@ footer {
   font-size: 30px;
   background-color: #070707;
   padding: 10px;
-  margin-left: 30px;
-  margin-top: 30px; }
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 20px; }
 
 .nav-link {
   color: black;
@@ -74,10 +74,14 @@ footer {
 .navBar {
   margin-left: 20px; }
 
+nav {
+  margin-left: 10px; }
+
 /**celular**/
 @media (min-width: 407px) {
   .container {
     grid-template-areas: "header" "tituloPrincipal" "navbar-toggler" "nav" "a" "propaganda" "descuento" "galeria"  "video" "footer";
+    display: grid;
     grid-template-columns: 1fr; }
   .header {
     font-size: 40px;
@@ -87,12 +91,14 @@ footer {
     color: black;
     margin-left: 20px; }
   nav {
-    margin-left: 80px; }
+    grid-template-columns: 50px 20%;
+    margin-left: 100px; }
   .navbar-toggler {
-    background-color: #adadb1;
-    padding: 10px;
-    margin-top: 10px;
-    border: solid 2px black; }
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-color: black;
+    border: solid 5px;
+    background-color: aliceblue; }
   a {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -172,3 +178,10 @@ footer {
     font-style: oblique;
     background-color: yellow;
     padding: 20px; } }
+
+@media (min-width: 1024px) {
+  .navbar-toggler {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-color: black;
+    border: solid 5px; } }
