@@ -40,37 +40,26 @@ body{
 @media (min-width:406px){
        .container{
       grid-area: 
-        "titulo"
         "navbar"
         "navbar-collapse"
         "titulo2"
         "p1";
        grid-template-columns: 1fr;
     }
-    
-    .titulo{
-       font-size: 40px;
-       text-align: center;
-       background-color: black;
-       color: coral;
-       padding-top: 30px;
-       padding-bottom: 30px;
-    }
-   
 
     .titulo2{
         font-size: 30px;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
-        color: blue;
+        color: rgb(255, 0, 0);
         font-weight: bolder;
     }
    .p1{
     font-size: 30px;
-    color: black;
-    margin-left: 20px;
-    margin-right: 20px;
+    color: rgb(255, 6, 234);
+
+    margin: 30px 10px 30px 10px;
     text-align: center;
    }
 }
@@ -106,6 +95,8 @@ body{
  }
  .p1{
     font-size: 30px;
+    color: 
+    
  }
 }
 
