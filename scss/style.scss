@@ -1,13 +1,13 @@
 @import "./layout/reset";
 @import "./layout/body";
 @import "./layout/propaganda";
+@import "../utilities/mixins.scss";
 @import "./layout/header";
 @import "./layout/galeria";
 @import "./layout/video";
 @import "./layout/navbar.link";
 @import "./layout/footer";
 @import "./layout/descuento";
-
 
 
 
@@ -39,11 +39,9 @@
         }  
      
       .header{
-    
+        @include Center;
         font-size: 40px;
-        text-align: center;
         font-weight: bolder;
-        justify-content: center;
         color: black;
         margin-left: 20px;
     }
@@ -129,8 +127,7 @@
        .descuento{
         color: rgb(15, 15, 15);
         font-size: 40px;
-       margin: 120px;
-  
+        margin: 120px;
         font-weight: bolder;
         background-color: rgb(4, 194, 241);
         border: outset rgb(249, 246, 246);
@@ -171,7 +168,7 @@
     
   
      video{
-       justify-content: center;
+      @include Center;
        margin: 10px;
      }
     

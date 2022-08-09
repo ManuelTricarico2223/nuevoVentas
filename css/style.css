@@ -1,12 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box; }
 
 body {
-  width: 100%;
   display: flex;
-  background-color: darkcyan; }
+  background-color: darkcyan;
+  justify-items: center;
+  text-align: center; }
 
 .propaganda {
   font-size: 30px;
@@ -20,11 +21,11 @@ body {
   background-color: #a31313; }
 
 header {
-  color: #15f509;
-  font-size: 80px;
+  color: #022ff5;
+  font-size: 50px;
   text-align: center;
-  margin-left: 40px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  margin-bottom: 50px; }
 
 .galeria {
   gap: 10px;
@@ -76,10 +77,10 @@ nav {
     display: grid;
     grid-template-columns: 1fr; }
   .header {
-    font-size: 40px;
-    text-align: center;
-    font-weight: bolder;
     justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
     color: black;
     margin-left: 20px; }
   nav {
@@ -163,6 +164,7 @@ nav {
     gap: 10px; }
   video {
     justify-content: center;
+    text-align: center;
     margin: 10px; }
   footer {
     font-size: 40px;
