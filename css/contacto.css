@@ -27,7 +27,7 @@ body{
     grid-area: datos;
 }
 
-@media(min-width:460px){
+@media(min-width:420px){
     .container{
     display: grid;
     grid-template-areas:

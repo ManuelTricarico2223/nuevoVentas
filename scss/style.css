@@ -70,7 +70,7 @@ footer {
 }
 
 /**celular**/
-@media (min-width: 480px) {
+@media (min-width: 420px) {
   .container {
     display: grid;
     grid-template-areas: "header" "tituloPrincipal" "navbar-toggler" "nav" "a" "propaganda" "descuento" "galeria" "video" "footer";
