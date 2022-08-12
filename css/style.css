@@ -71,7 +71,7 @@ nav {
   margin-left: 10px; }
 
 /**celular**/
-@media (min-width: 407px) {
+@media (min-width: 480px) {
   .container {
     grid-template-areas: "header" "tituloPrincipal" "navbar-toggler" "nav" "a" "propaganda" "descuento" "galeria"  "video" "footer";
     display: grid;

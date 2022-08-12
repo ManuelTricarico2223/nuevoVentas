@@ -50,7 +50,7 @@ nav{
 /* Mobile */
 
 
-@media (min-width :406px){
+@media (min-width :460px){
 
     .container{
         grid-area:
