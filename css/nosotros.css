@@ -37,7 +37,7 @@ body{
     grid-area: p1;
 }
 
-@media (min-width:460px){
+@media (min-width:420px){
        .container{
       grid-area: 
         "navbar"
@@ -57,7 +57,7 @@ body{
     }
    .p1{
     font-size: 30px;
-    color: rgb(255, 6, 234);
+    color: rgb(245, 240, 244);
 
     margin: 30px 10px 30px 10px;
     text-align: center;
