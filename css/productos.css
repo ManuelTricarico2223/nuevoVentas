@@ -62,6 +62,7 @@ nav{
                  "containerFluid"
                  "navbar-toggler"
                  "button"
+                 "productos"
                  "neumaticos"
                  "parrafoUno"
                  "rodadoCubierta"
@@ -83,7 +84,7 @@ nav{
         text-align: center;
         font-size: 30px;
         margin-left: 10px;
-        color: crimson;
+        color: rgb(252, 248, 249);
     }
     .nav{
         margin-left: 50px;
@@ -96,10 +97,16 @@ nav{
         font-size: 10px;
         background-color: coral;
     }
-    
+    .productos{
+        text-align: center;
+        margin-bottom: 30px;
+        color: rgb(43, 226, 92);
+        font-size: 50px;
+    }
     .parrafoUno{
         color: rgb(1, 2, 2);
         margin: 10px;
+        margin-bottom: 20px;
         font-weight: bolder;
     }
     .rodadoCubierta{
@@ -125,34 +132,7 @@ nav{
         margin: 10px;
         font-weight: bolder;
     }
-    .imagenes{
-        margin: 30px;
-        margin-top: 30px;
-        border: solid 10px black;
-        margin-bottom: 100px;
- 
-    }
-     
-    .p1{
-        color: rgb(0, 229, 255);
-        font-size: 20px;
-        margin: 10px;
-      }
-      .p2{
-        color: rgb(0, 229, 255);
-        font-size: 20px;
-        margin: 10px;
-      }
-      .p3{
-        color: rgb(0, 229, 255);
-        font-size: 20px;
-        margin: 10px;
-      }
-      .p4{
-        color: rgb(0, 229, 255);
-        font-size: 20px;
-        margin: 10px;
-      }
+    
       .footer{
         margin-top:  50px;
       }

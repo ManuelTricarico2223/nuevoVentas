@@ -17,7 +17,7 @@ body {
   font-weight: bolder;
   text-align: center;
   margin: 30px;
-  margin-left: 70px;
+  margin-left: 40px;
   background-color: #a31313; }
 
 header {
@@ -30,12 +30,12 @@ header {
 .galeria {
   gap: 10px;
   margin-right: 20px;
-  margin-left: 60px;
+  margin-left: 20px;
   padding-bottom: 10px;
-  padding-left: 100px; }
+  padding-left: 20px; }
 
 .videoPrincipal {
-  margin-left: 100px;
+  margin-left: 30px;
   margin-top: 200px; }
 
 .nav-link {
@@ -64,17 +64,11 @@ footer {
   margin-right: 50px;
   margin-top: 20px; }
 
-.navBar {
-  margin-left: 20px; }
-
-nav {
-  margin-left: 10px; }
-
 /**celular**/
 @media (min-width: 420px) {
   .container {
     grid-template-areas: "header" "tituloPrincipal" "navbar-toggler" "nav" "a" "propaganda" "descuento" "galeria"  "video" "footer";
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr; }
   .header {
     justify-content: center;
@@ -82,10 +76,10 @@ nav {
     font-size: 40px;
     font-weight: bolder;
     color: black;
-    margin-left: 20px; }
+    margin-left: 10px; }
   nav {
-    grid-template-columns: 50px 20%;
-    margin-left: 100px; }
+    grid-template-columns: 20px;
+    margin-left: 30px; }
   .navbar-toggler {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -101,7 +95,7 @@ nav {
     gap: 20px;
     padding: 20px; }
   .marcas {
-    margin-left: 100px;
+    margin-left: 10px;
     margin-top: 50px; }
   footer {
     font-size: 40px;
@@ -110,7 +104,7 @@ nav {
     font-style: oblique;
     background-color: yellow;
     padding: 20px;
-    margin-left: 50px; } }
+    margin-left: 20px; } }
 
 /* TABLET */
 @media (min-width: 720px) {

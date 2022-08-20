@@ -53,6 +53,7 @@ nav{
 @media (min-width :420px){
 
     .container{
+        display: flex;
         grid-area:
         "textoPrincipal"
         "nav"
@@ -67,6 +68,7 @@ nav{
         grid-template-columns: 1fr;
       }
       .textoPrincipal{
+        font-size: 10px;
         padding-top: 30px;
         padding-bottom: 30px;
         margin-bottom: 50px;
@@ -74,13 +76,16 @@ nav{
           
       }
     .nav-link{
-        font-size: 40px;
+        font-size: 20px;
         color: rgb(244, 6, 6);
         font-weight: bolder;
         padding: 20px;
     }
+    .navbar-toggler-icon{
+        color: rgb(226, 43, 43);
+    }
     .servicio{
-        font-size: 70px;
+        font-size: 30px;
         font-weight: bolder;
         color: dodgerblue;
         text-align: center;
@@ -89,7 +94,7 @@ nav{
     }
    .venta{
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(247, 128, 1);
     font-weight: bolder;
     margin-left: 10px;
@@ -99,7 +104,7 @@ nav{
   .alineacion{
 
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     color:rgb(247, 128, 1);
     margin-left: 10px;
@@ -108,7 +113,7 @@ nav{
 
     .texto{
 
-        font-size: 70px;
+        font-size: 50px;
         color: rgb(8, 0, 255);
         background-color: black;
         text-align: center;
