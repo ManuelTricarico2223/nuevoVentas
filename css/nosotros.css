@@ -5,8 +5,8 @@
 }
 
 body{
-    background: url(../imagenes/ruedas\ amarrillas1000px.jpg) no-repeat center center fixed;
-    background-size:cover;
+    background: url(../imagenes/cubiertas\ en\ fila.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     display:flex;
 }
@@ -30,8 +30,8 @@ body{
 .navbar{
     grid-area: navbar;
 }
-.navbar-collapse{
-    grid-area: navbar-collapse;
+.navbar-brand{
+    grid-area: navbar-brand;
 }
 .p1{
     grid-area: p1;
@@ -48,19 +48,22 @@ body{
     }
 
     .titulo2{
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
-        color: rgb(255, 0, 0);
+        color: rgb(7, 240, 240);
         font-weight: bolder;
     }
    .p1{
     font-size: 30px;
-    color: rgb(245, 240, 244);
+    color: rgb(250, 189, 5);
 
-    margin: 30px 10px 30px 10px;
+    margin: 50px 10px 50px 10px;
     text-align: center;
+   }
+   .navbar-brand{
+    margin-top: 30px;
    }
 }
 
@@ -78,7 +81,7 @@ body{
     font-size: 30px;
     border: 5px solid black ;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 80px;
  }
  .titulo{
 
@@ -127,7 +130,7 @@ body{
     font-size: 40px;
 }
 .titulo2{
-    color: rgb(0, 0, 255);
+    color: rgb(255, 0, 0);
     font-size: 50px;
     margin-top: 30px;
     margin-bottom: 60px;
