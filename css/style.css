@@ -4,10 +4,8 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0%;
-  display: flex;
-  background-color: darkcyan;
-  text-align: center; }
+  margin: 10px;
+  background-color: darkcyan; }
 
 .propaganda {
   font-size: 20px;

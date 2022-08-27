@@ -7,15 +7,9 @@
 body{
     background: url(../imagenes/cubiertas\ en\ fila.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100%;
-    display:flex;
+    margin: 10px;
 }
-.navbar{
-    font-size: 30px;
-    color: black;
-    margin-left: 50px;
-    
-}
+
 
 
 /* areas*/
@@ -30,17 +24,18 @@ body{
 .navbar{
     grid-area: navbar;
 }
-.navbar-brand{
-    grid-area: navbar-brand;
-}
 .p1{
     grid-area: p1;
+}
+.nav-link{
+    grid-area: nav-link;
 }
 
 @media (min-width:420px){
        .container{
       grid-area: 
         "navbar"
+        "nav-link"
         "navbar-collapse"
         "titulo2"
         "p1";
@@ -48,12 +43,13 @@ body{
     }
 
     .titulo2{
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
-        color: rgb(7, 240, 240);
+        color: rgb(252, 0, 0);
         font-weight: bolder;
+
     }
    .p1{
     font-size: 30px;
@@ -62,9 +58,17 @@ body{
     margin: 50px 10px 50px 10px;
     text-align: center;
    }
-   .navbar-brand{
-    margin-top: 30px;
+
+   .nav-item{
+    color: aqua;
    }
+  .nav-link{
+    background-color: aliceblue;
+    margin: 10px 80px;
+    padding:10px;
+    font-size: 20px;
+  }
+  a
 }
 
 @media (min-width:720px){
