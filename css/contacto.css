@@ -6,8 +6,8 @@
 
 
 body{
-    width: 100%;
     background-color: darkcyan;
+    margin: 10px;
 
  
 }
@@ -16,6 +16,9 @@ body{
 
 .nav{
     grid-area: nav;
+}
+.nav-link{
+    grid-area: nav-link;
 }
 .imagenAuto{
     grid-area: imagenAuto;
@@ -26,45 +29,54 @@ body{
 .boton{
     grid-area: boton;
 }
+.ingreso{
+    grid-area: ingreso;
+}
 
 @media(min-width:420px){
     .container{
     display: grid;
     grid-template-areas:
     "nav"
+    "nav-link"
     "imagenAuto"
     "datos"
+    "ingreso"
     "navbar-toggler"
     "boton";
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
     }
     .imagenAuto{
-       width: 100%;
-       position: absolute;
        text-align: center;
        padding-bottom: 50px;
+       margin-right: 50px;
     }
     
 
    .navbar-toggler{
     
     background: rgb(242, 243, 245);
-    margin-right: 30px;
+    text-align: center;
+    margin-right: 40px;
    }
 
    .nav-link{
-
+    background-color: aliceblue;
     font-weight: bolder;
     text-align: center;
     font-size: 30px;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 10px;
    }
 
    .datos{
     color: black;
     font-weight: bolder;
     font-size: 25px;
-    padding: 30px;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 10px;
+
    }
     .boton{
         margin-top: 30px;
@@ -80,42 +92,84 @@ body{
             grid-template-areas:
             "titulo"
             "nav"
+            "nav-link"
+            "ingreso"
             "imagenAuto"
             "datos"
             "navbar-toggler";
             grid-template-rows: 2fr;
             }
             .imagenAuto{
-                position: relative;
-                left: 400px;
-                bottom: 100px;
+                text-align: center;
+                width: max-content;
+              
             }
-            
-        
-           .navbar-toggler{
-            
-            background: rgb(242, 243, 245);
+            .navbar-toggler{
+            background: rgb(247, 247, 247);
+            text-align: center;
+            margin-right: 250px;
            }
-        
-           .tituloPrincipal{
-            font-size: 150px;
-            background-color: black;
-            padding: 40px;
-            color: rgb(255, 0, 0);
+           .nav-link{
+            background-color: rgb(134, 137, 137);
+            margin: 20px;
            }
         
            .datos{
             color: black;
             font-weight: bolder;
-            font-size: 30px;
+            font-size: 40px;
+            margin-top: 100px;
+           }
+           .ingreso{
+            margin-left: 50px;
             margin-top: 20px;
-            margin-bottom: 50px;
+            justify-items: flex-end;
            }
-           .input{
-            padding: 50px;
-            margin-bottom: 20px;
-           }
+           
         
            
 
 }
+@media (min-width:1024px) {
+    
+    .container{
+    display: grid;
+    grid-template-areas:
+    "titulo"
+    "nav"
+    "nav-link"
+    "imagenAuto"
+    "datos"
+    "navbar-toggler";
+    grid-template-rows: 1fr;
+    }
+    .imagenAuto{
+        text-align: center;
+        width:100%;
+        height: auto;
+}
+    .navbar-toggler{
+    background: rgb(247, 247, 247);
+    text-align: center;
+    margin-right: 250px;
+   }
+   .nav-link{
+    background-color: rgb(236, 239, 239);
+    margin: 20px;
+    box-shadow: 100px;
+   }
+
+   .datos{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 100px;
+   }
+   .ingreso{
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-items: flex-end;
+   }
+   }
+
+   
