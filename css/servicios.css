@@ -203,8 +203,8 @@ nav{
         }
  
         .nav-link{
-            background-color: black;
-            font-size: 70px;
+            background-color: rgb(6, 173, 244);
+            font-size: 50px;
             color: rgb(248, 2, 10);
             font-weight: bolder;
             padding: 20px;

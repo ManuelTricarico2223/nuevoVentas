@@ -5,9 +5,10 @@
 }
 
 body{
-    background: url(../imagenes/cubiertas\ en\ fila.jpg) no-repeat center center fixed;
-    background-size: cover;
-    margin: 10px;
+    background: url(../imagenes/cubiertas\ en\ fila-gigapixel-standard-scale-4_00x\ 222.jpg) no-repeat center top fixed;
+     background-size: cover;
+     margin: 10px;
+
 }
 
 
@@ -41,11 +42,18 @@ body{
         "p1";
        grid-template-columns: 1fr;
     }
-
+     .navbar{
+        margin-top: 30px;
+    }
+    .nav-link{
+        background-color: azure;
+        margin-right: 50px;
+        font-size: 20px;
+     }
     .titulo2{
         font-size: 40px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 30px;
         color: rgb(252, 0, 0);
         font-weight: bolder;
@@ -53,29 +61,27 @@ body{
     }
    .p1{
     font-size: 30px;
-    color: rgb(250, 189, 5);
+    color: rgb(250, 156, 5);
 
     margin: 50px 10px 50px 10px;
     text-align: center;
    }
 
-   .nav-item{
-    color: aqua;
-   }
   .nav-link{
-    background-color: aliceblue;
-    margin: 10px 80px;
     padding:10px;
     font-size: 20px;
+    margin: 20px;
+    font-size: 30px;
   }
-  a
+  
 }
 
 @media (min-width:720px){
     .container{
    grid-area:
      "navbar-collapse"
-     "navbar" 
+     "navbar"
+     "nav-link"
      "titulo"
      "titulo2"
      "p1";
@@ -83,17 +89,12 @@ body{
  }
  .navbar{
     font-size: 30px;
-    border: 5px solid black ;
     margin-right: 30px;
     margin-top: 80px;
  }
- .titulo{
-
-    font-size: 80px;
-    color: blueviolet;
-    background-color: aliceblue;
+ .nav-link{
+    text-align: center;
  }
- 
  .titulo2{
     color: rgb(255, 0, 0);
     font-size: 50px;
@@ -136,9 +137,14 @@ body{
 .titulo2{
     color: rgb(255, 0, 0);
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 60px;
     font-weight: bolder;
  }
-
+ 
+ .p1{
+    color: rgb(6, 242, 246);
+    font-size: 50px;
+    margin: 50px
+ }
 }
