@@ -5,10 +5,8 @@
 }
 
 body{
-    display: flex;
-     background: url(../imagenes/cubiertas\ en\ fila-gigapixel-standard-scale-4_00x\ 222.jpg) no-repeat fixed;
-     background-position: center;
-     background-size:cover;
+   background-color: rgb(6, 6, 6);
+
 }
 nav{
     grid-area: nav;
@@ -165,7 +163,7 @@ nav{
     .servicio{
         font-size: 100px;
         font-weight: bolder;
-        color: rgb(4, 245, 169);
+        color: rgb(247, 250, 249);
         text-align: center;
         margin-top: 50px;
         margin-bottom: 100px;
